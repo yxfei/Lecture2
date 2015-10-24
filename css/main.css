@@ -1,0 +1,63 @@
+/* this si a to comment out*/
+
+/*css "search query
+selectorName {propertyName: propertyValue;}
+
+example:
+
+section {
+	background-color: red;
+*/
+
+a {
+	color: rgb(0, 255, 155);
+	text-transform: uppercase;
+	background-color: black;
+} /* this is an example of tag name selector*/
+
+/* class selector*/
+.alert-imp {
+	color: #f00;
+	text-transform: uppercase;
+	text-decoration: underline;
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center; /* only apply to block elements*/
+}
+
+.no-underline {
+
+	text-decoration: none;
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+.red {
+	background-color: red;
+}
+
+/*.red.yellow will select the two classes
+try to find the div that matches two or more of these classes
+example of complext css class selector*/
+.red.yellow {
+	background-color: orange;
+}
+
+/*p.red = */
+p.red.yellow{
+	background-color: blue;
+}
+
+em {
+	font-size: 15px;
+}
+
+/*find all the em child of <p> wether (all child of <p>) */
+p em {
+	color: red;
+}
